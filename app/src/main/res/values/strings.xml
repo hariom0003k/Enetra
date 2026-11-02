@@ -1,0 +1,53 @@
+<resources>
+    <string name="app_name">PeepGuard</string>
+    <string name="accessibility_service_label">PeepGuard App Watcher</string>
+    <string name="a11y_desc">Detects which protected app is on screen. No screen content is read.</string>
+
+    <!-- MainActivity -->
+    <string name="setup_title">Setup PeepGuard</string>
+    <string name="setup_subtitle">Complete all steps below to activate protection</string>
+    <string name="step1_title">Step 1 — Camera &amp; Notifications</string>
+    <string name="step1_desc">Required to detect faces and send alerts</string>
+    <string name="btn_grant_permissions">Grant Permissions</string>
+    <string name="step2_title">Step 2 — Draw Over Apps</string>
+    <string name="step2_desc">Required to show the privacy overlay</string>
+    <string name="btn_overlay_settings">Open Overlay Settings</string>
+    <string name="step3_title">Step 3 — Accessibility Service</string>
+    <string name="step3_desc">Required to detect which app is open</string>
+    <string name="btn_accessibility_settings">Open Accessibility Settings</string>
+    <string name="section_apps_title">Protected Apps</string>
+    <string name="section_apps_desc">PeepGuard will activate when these apps are open</string>
+    <string name="btn_start">Start Protection</string>
+    <string name="btn_stop">Stop Protection</string>
+    <string name="status_running">🟢 Protection is Active</string>
+    <string name="status_stopped">🔴 Protection is Stopped</string>
+    <string name="permission_granted">✔ Granted</string>
+    <string name="permission_not_granted">✘ Not Granted</string>
+
+    <!-- Overlay -->
+    <string name="overlay_alert_title">⚠️ Someone is watching!</string>
+    <string name="overlay_alert_body">Screen has been blurred.\nWho is this person?</string>
+    <string name="btn_friend">👤 Friend</string>
+    <string name="btn_ignore">🚫 Ignore</string>
+    <string name="btn_back">← Back</string>
+    <string name="overlay_timer_suffix">— How long to suppress?</string>
+
+    <!-- Notification -->
+    <string name="notif_channel_main">PeepGuard Service</string>
+    <string name="notif_channel_alert">PeepGuard Alerts</string>
+    <string name="notif_main_title">PeepGuard is Active</string>
+    <string name="notif_main_text">Monitoring for unauthorized viewers</string>
+    <string name="notif_alert_title">⚠️ Someone is watching your screen!</string>
+    <string name="notif_alert_text">Tap to respond</string>
+
+    <!-- Timer options -->
+    <string-array name="timer_labels">
+        <item>30 seconds</item>
+        <item>1 minute</item>
+        <item>2 minutes</item>
+        <item>5 minutes</item>
+        <item>10 minutes</item>
+    </string-array>
+
+    <string name="toast_suppressed">Alert suppressed for %1$s</string>
+</resources>
